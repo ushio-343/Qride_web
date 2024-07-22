@@ -11,28 +11,27 @@ function App() {
             <img
               src={MockupLogo}
               alt="QR Logo"
-              className="h-12 w-12   mr-3"
+              className="h-12 w-12 mr-3"
             />
             <h1 className="text-white text-xl font-bold">Qride</h1>
           </div>
-
         </div>
       </header>
       <section className="flex flex-col md:flex-row items-center justify-center space-y-10">
         <div className="flex flex-col items-center justify-center w-full md:w-1/2 p-4 h-full space-y-10">
           <h1 className="text-white text-3xl font-bold mb">Descarga Nuestra App!!!</h1>
-
           <img
             src={MockupLogo}
             alt="QR"
-            className="h-60 w-60 "
+            className="h-60 w-60"
           />
-          <div className='space-x-5'>
+          <div className="space-x-5">
             <a
-              href="https://play.google.com/store"
+              href="https://drive.google.com/uc?export=download&id=1C8Kk0BNocUOP-N-fi_EsvAmscAYh25bV"
               className="bg-gray-700 text-white font-bold py-3 px-4 rounded-2xl inline-flex items-center hover:bg-blue-700"
+              download
             >
-              Google play<FaGooglePlay className="ml-2" />
+              Descargar APK<FaGooglePlay className="ml-2" />
             </a>
             <a
               href="https://play.google.com/store"
